@@ -1,4 +1,4 @@
-import time
+﻿import time
 import BaseHTTPServer
 import json
 
@@ -30,5 +30,5 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 
 
 
-httpd = BaseHTTPServer.HTTPServer(("localhost", 8000), MyHandler)
+httpd = BaseHTTPServer.HTTPServer(("0.0.0.0", 8000), MyHandler)
 httpd.serve_forever()
