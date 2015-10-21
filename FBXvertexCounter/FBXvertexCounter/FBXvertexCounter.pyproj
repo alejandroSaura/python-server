@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b59182f0-d3ad-4b5c-8e6f-ec0a850e793d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FBXvertexCounter.py</StartupFile>
+    <StartupFile>fbxOnlineVertexCounter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="fbxOnlineVertexCounter.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FBXvertexCounter.py" />
   </ItemGroup>
   <PropertyGroup>
