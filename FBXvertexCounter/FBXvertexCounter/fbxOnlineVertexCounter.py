@@ -52,7 +52,7 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
         result = 0
         mesh = node.GetMesh()
         if(mesh != None) :
-            result += mesh.GetControlPointsCount()
+            result += mesh.GetPolygonVertexCount()
         childNumber = node.GetChildCount()
         count = list(range(childNumber))
         for i in count:
